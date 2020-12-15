@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	int x=5;
+	printf("selected key is %d\n",x);
+	switch(x)
+	{
+		case 1:printf("Pasta\nRs.179");
+		break;
+		case 2:printf("Vadapav\nRs.99");
+		break;
+		case 3:printf("Burger\nRs.199");
+		break;
+		case 4:printf("French Fries\nRs.125");
+		break;
+		case 5:printf("Sandwich\nRs.299");
+		break;
+		case 6:printf("Pizza\nRs.150");
+		break;
+		default:printf("invalid");
+		
+	}
+return 0;
+}
